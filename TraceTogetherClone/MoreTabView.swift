@@ -17,98 +17,18 @@ struct MoreTabView: View {
     
     var body: some View {
         VStack {
-            HStack {
-                VStack(alignment: .leading) {
-                    Text("**Hello** 👋🏼").font(.title)
-                    Text("App version 1.0.0").font(.subheadline).fontWeight(.light)
-                }
+            HeaderMoreTabView()
 
-                Spacer()
-            }.padding(.leading, 30).padding(.bottom, 30)
-            
-            
-            
             
             ScrollView {
-                HStack {
-                    Text("**Account**").font(.headline)
+                
+                AccountsMoreTabView(accountLinksArray: accountLinksArray)
 
-                    Spacer()
-                }.padding(.leading, 30).padding(.bottom, 20)
+                HelpFeedbackMoreTabView(helpAndFeedbackLinksArray: helpAndFeedbackLinksArray)
                 
+                OthersMoreTabView(otherLinksArray: otherLinksArray)
                 
-                ForEach(0..<accountLinksArray.count, id:\.self) { index in
-                    VStack {
-                        HStack {
-                            Text(accountLinksArray[index])
-                            
-                            Spacer()
-                            
-                            Image(systemName: "chevron.right")
-                                .font(.system(size: 20.0))
-                                .foregroundColor(.black)
-                                .padding(.trailing, 20)
-                        }.padding(.leading, 30).padding(.bottom, 8)
-                        
-                        Divider()
-                    }
-                }
-                
-                
-                
-                
-                
-                
-                HStack {
-                    Text("**Help & Feedback**").font(.headline)
-
-                    Spacer()
-                }.padding(.leading, 30).padding(.bottom, 20).padding(.top, 30)
-                
-                ForEach(0..<helpAndFeedbackLinksArray.count, id:\.self) { index in
-                    VStack {
-                        HStack {
-                            Text(helpAndFeedbackLinksArray[index])
-                            
-                            Spacer()
-                            
-                            Image(systemName: "chevron.right")
-                                .font(.system(size: 20.0))
-                                .foregroundColor(.black)
-                                .padding(.trailing, 20)
-                        }.padding(.leading, 30).padding(.bottom, 8)
-                        
-                        Divider()
-                    }
-                }
-                
-                
-                
-                
-                
-                
-                HStack {
-                    Text("**Others**").font(.headline)
-
-                    Spacer()
-                }.padding(.leading, 30).padding(.bottom, 20).padding(.top, 30)
-                
-                ForEach(0..<otherLinksArray.count, id:\.self) { index in
-                    VStack {
-                        HStack {
-                            Text(otherLinksArray[index])
-                            
-                            Spacer()
-                            
-                            Image(systemName: "chevron.right")
-                                .font(.system(size: 20.0))
-                                .foregroundColor(.black)
-                                .padding(.trailing, 20)
-                        }.padding(.leading, 30).padding(.bottom, 8)
-                        
-                        Divider()
-                    }
-                }
+                AcknowledgementsMoreTabView()
             }
         }
     }

@@ -5,5 +5,10 @@ A clone of the Singapore COVID contact tracing app, TraceTogether, written in Sw
 
 ### CHANGELOG
 
+25 Dec 2021:
+- Fixed: Tab bar is now opaque and white. Was translucent previously
+- Refactored "More" tab code
+- "More" tab is done
+
 24 Dec 2021:
 - List of links done for "More" tab

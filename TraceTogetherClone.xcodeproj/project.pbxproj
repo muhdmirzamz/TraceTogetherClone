@@ -12,6 +12,11 @@
 		AA0A47DE27737E1700BD5D57 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA0A47DD27737E1700BD5D57 /* Assets.xcassets */; };
 		AA0A47E127737E1700BD5D57 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA0A47E027737E1700BD5D57 /* Preview Assets.xcassets */; };
 		AA8063F0277387290013AA6F /* MoreTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA8063EF277387290013AA6F /* MoreTabView.swift */; };
+		AADB38412776330000AE719B /* HeaderMoreTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AADB38402776330000AE719B /* HeaderMoreTabView.swift */; };
+		AADB38452776338A00AE719B /* AccountsMoreTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AADB38442776338A00AE719B /* AccountsMoreTabView.swift */; };
+		AADB3847277635E600AE719B /* HelpFeedbackMoreTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AADB3846277635E600AE719B /* HelpFeedbackMoreTabView.swift */; };
+		AADB38492776367700AE719B /* OthersMoreTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AADB38482776367700AE719B /* OthersMoreTabView.swift */; };
+		AADB384B277636DF00AE719B /* AcknowledgementsMoreTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AADB384A277636DF00AE719B /* AcknowledgementsMoreTabView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +26,11 @@
 		AA0A47DD27737E1700BD5D57 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AA0A47E027737E1700BD5D57 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		AA8063EF277387290013AA6F /* MoreTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreTabView.swift; sourceTree = "<group>"; };
+		AADB38402776330000AE719B /* HeaderMoreTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderMoreTabView.swift; sourceTree = "<group>"; };
+		AADB38442776338A00AE719B /* AccountsMoreTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountsMoreTabView.swift; sourceTree = "<group>"; };
+		AADB3846277635E600AE719B /* HelpFeedbackMoreTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpFeedbackMoreTabView.swift; sourceTree = "<group>"; };
+		AADB38482776367700AE719B /* OthersMoreTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OthersMoreTabView.swift; sourceTree = "<group>"; };
+		AADB384A277636DF00AE719B /* AcknowledgementsMoreTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AcknowledgementsMoreTabView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +92,11 @@
 			isa = PBXGroup;
 			children = (
 				AA8063EF277387290013AA6F /* MoreTabView.swift */,
+				AADB38402776330000AE719B /* HeaderMoreTabView.swift */,
+				AADB38442776338A00AE719B /* AccountsMoreTabView.swift */,
+				AADB3846277635E600AE719B /* HelpFeedbackMoreTabView.swift */,
+				AADB38482776367700AE719B /* OthersMoreTabView.swift */,
+				AADB384A277636DF00AE719B /* AcknowledgementsMoreTabView.swift */,
 			);
 			name = More;
 			sourceTree = "<group>";
@@ -156,9 +171,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AADB38412776330000AE719B /* HeaderMoreTabView.swift in Sources */,
 				AA0A47DC27737E1600BD5D57 /* ContentView.swift in Sources */,
 				AA0A47DA27737E1600BD5D57 /* TraceTogetherCloneApp.swift in Sources */,
 				AA8063F0277387290013AA6F /* MoreTabView.swift in Sources */,
+				AADB384B277636DF00AE719B /* AcknowledgementsMoreTabView.swift in Sources */,
+				AADB38452776338A00AE719B /* AccountsMoreTabView.swift in Sources */,
+				AADB3847277635E600AE719B /* HelpFeedbackMoreTabView.swift in Sources */,
+				AADB38492776367700AE719B /* OthersMoreTabView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
