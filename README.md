@@ -5,6 +5,9 @@ A clone of the Singapore COVID contact tracing app, TraceTogether, written in Sw
 
 ### CHANGELOG
 
+29 Dec 2021:
+- Added health status section
+
 27 Dec 2021:
 - Done with top portion of Home screen
 
