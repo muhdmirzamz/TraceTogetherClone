@@ -15,6 +15,7 @@
 		AA5C7CBD277CB1D3000FBEE2 /* HealthStatusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA5C7CBC277CB1D3000FBEE2 /* HealthStatusView.swift */; };
 		AA5C7CBF277CB266000FBEE2 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA5C7CBE277CB266000FBEE2 /* HeaderView.swift */; };
 		AA8063F0277387290013AA6F /* MoreTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA8063EF277387290013AA6F /* MoreTabView.swift */; };
+		AA98BCD42781E5020096E9AB /* CheckInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA98BCD32781E5020096E9AB /* CheckInView.swift */; };
 		AADB38412776330000AE719B /* HeaderMoreTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AADB38402776330000AE719B /* HeaderMoreTabView.swift */; };
 		AADB38452776338A00AE719B /* AccountsMoreTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AADB38442776338A00AE719B /* AccountsMoreTabView.swift */; };
 		AADB3847277635E600AE719B /* HelpFeedbackMoreTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AADB3846277635E600AE719B /* HelpFeedbackMoreTabView.swift */; };
@@ -32,6 +33,7 @@
 		AA5C7CBC277CB1D3000FBEE2 /* HealthStatusView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthStatusView.swift; sourceTree = "<group>"; };
 		AA5C7CBE277CB266000FBEE2 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
 		AA8063EF277387290013AA6F /* MoreTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreTabView.swift; sourceTree = "<group>"; };
+		AA98BCD32781E5020096E9AB /* CheckInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckInView.swift; sourceTree = "<group>"; };
 		AADB38402776330000AE719B /* HeaderMoreTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderMoreTabView.swift; sourceTree = "<group>"; };
 		AADB38442776338A00AE719B /* AccountsMoreTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountsMoreTabView.swift; sourceTree = "<group>"; };
 		AADB3846277635E600AE719B /* HelpFeedbackMoreTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpFeedbackMoreTabView.swift; sourceTree = "<group>"; };
@@ -92,6 +94,7 @@
 				AA4CAE852778DB9100C7D6E5 /* HomeTabView.swift */,
 				AA5C7CBC277CB1D3000FBEE2 /* HealthStatusView.swift */,
 				AA5C7CBE277CB266000FBEE2 /* HeaderView.swift */,
+				AA98BCD32781E5020096E9AB /* CheckInView.swift */,
 			);
 			name = Home;
 			sourceTree = "<group>";
@@ -196,6 +199,7 @@
 				AADB384B277636DF00AE719B /* AcknowledgementsMoreTabView.swift in Sources */,
 				AADB38452776338A00AE719B /* AccountsMoreTabView.swift in Sources */,
 				AA5C7CBF277CB266000FBEE2 /* HeaderView.swift in Sources */,
+				AA98BCD42781E5020096E9AB /* CheckInView.swift in Sources */,
 				AADB3847277635E600AE719B /* HelpFeedbackMoreTabView.swift in Sources */,
 				AA5C7CBD277CB1D3000FBEE2 /* HealthStatusView.swift in Sources */,
 				AADB38492776367700AE719B /* OthersMoreTabView.swift in Sources */,

@@ -16,49 +16,25 @@ struct HomeTabView: View {
             
             Divider().padding(.top, 20).padding(.bottom, 20)
             
-            VStack {
-                HStack {
-                    Image(systemName: "menucard.fill").foregroundColor(.red)
-                    Text("SafeEntry check in")
-                    Spacer()
-                }
-                .padding(.leading, 25)
-                
-                HStack {
-                    VStack {
-                        Image(systemName: "qrcode.viewfinder")
-                            .font(.system(size: 30.0))
-                            .padding(.bottom, 10)
-                        Text("Scan QR")
-                    }.padding(.trailing, 20)
-                    
-                    Spacer()
-                    
-                    VStack {
-                        Image(systemName: "star.fill")
-                            .font(.system(size: 30.0))
-                            .foregroundColor(.yellow)
-                            .padding(.bottom, 8)
-                        Text("Scan QR")
-                    }
-                    
-                    Spacer()
-                    
-                    VStack {
-                        Image(systemName: "person.3.fill")
-                            .font(.system(size: 30.0))
-                            .padding()
-                            
-                        Text("Scan QR").padding(.bottom, 5)
-                    }
-                }
-                .padding(.leading, 20)
-                .padding(.trailing, 20)
-                .frame(width: 330, height: 120)
-                .background(Color.init(red: 209/255, green: 227/255, blue: 255/255))
-            }
+            CheckInView()
             
             Divider().padding(.top, 20)
+            
+            HStack {
+                Image(systemName: "rectangle.and.hand.point.up.left.filled").font(.system(size: 40.0))
+                Text("Stay safe together.\nShare the app!").padding(.leading, 10).font(.body)
+                
+                Spacer()
+                
+                Image(systemName: "chevron.right").font(.system(size: 15.0))
+            }
+            .padding(40)
+            .overlay(
+                RoundedRectangle(cornerRadius: 16)
+                    .strokeBorder(style: StrokeStyle(lineWidth: 0.5, dash: [4]))
+                    .padding(30)
+            )
+            
             
             Spacer()
         }.ignoresSafeArea(edges: .top)

@@ -16,7 +16,7 @@ struct ContentView: View {
     var body: some View {
         TabView {
             NavigationView {
-//                HomeView(imgArray: imgArray).navigationBarHidden(true)
+                HomeTabView()
             }
             .tabItem {
                 Image(systemName: "house.fill")
