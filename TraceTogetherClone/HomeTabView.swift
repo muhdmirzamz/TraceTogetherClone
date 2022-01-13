@@ -21,8 +21,12 @@ struct HomeTabView: View {
             Divider().padding(.top, 20)
             
             HStack {
-                Image(systemName: "rectangle.and.hand.point.up.left.filled").font(.system(size: 40.0))
-                Text("Stay safe together.\nShare the app!").padding(.leading, 10).font(.body)
+                Image(systemName: "rectangle.and.hand.point.up.left.filled").font(.system(size: 40.0)).padding(.trailing, 5)
+                
+                VStack(alignment: .leading) {
+                    Text("Stay safe together.")
+                    Text("Share the app!")
+                }
                 
                 Spacer()
                 

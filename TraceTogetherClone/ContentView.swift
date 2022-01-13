@@ -27,9 +27,9 @@ struct ContentView: View {
             
             
             
-            
-            Text("History tab")
-                .font(.system(size: 30, weight: .bold, design: .rounded))
+            NavigationView {
+                HistoryTabView().navigationBarTitleDisplayMode(.inline)
+            }
             .tabItem {
                 Image(systemName: "clock.arrow.circlepath")
                 Text("History")
@@ -42,21 +42,31 @@ struct ContentView: View {
                 Text("Upload")
             }
             
+            
+            /* toolbar item example */
+            
+            
+//            MoreTabView().navigationTitle("More") .navigationBarTitleDisplayMode(.inline).toolbar {
+//                ToolbarItem(placement: .principal) {
+//                    HStack {
+//
+//                        Spacer()
+//
+//                        Text("More")
+//
+//                        Spacer()
+//
+//
+//                        Image(systemName: "barcode.viewfinder")
+//                    }
+//                }
+//            }
+            
+            
+//        https://www.hackingwithswift.com/quick-start/swiftui/how-to-add-bar-items-to-a-navigation-view
             NavigationView {
-                MoreTabView().navigationBarTitleDisplayMode(.inline).toolbar {
-                    ToolbarItem(placement: .principal) {
-                        HStack {
-                            
-                            Spacer()
-                            
-                            Text("More").padding(.leading, 30)
-                            
-                            Spacer()
-                            
-                            
-                            Image(systemName: "barcode.viewfinder")
-                        }
-                    }
+                MoreTabView().navigationTitle("More") .navigationBarTitleDisplayMode(.inline).toolbar {
+                    Image(systemName: "barcode.viewfinder")
                 }
             }
             .tabItem {

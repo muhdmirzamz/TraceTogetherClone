@@ -5,6 +5,10 @@ A clone of the Singapore COVID contact tracing app, TraceTogether, written in Sw
 
 ### CHANGELOG
 
+13 Jan 2022:
+- Fixed layout issue with the "Share" text in ```HomeTabView```
+- Refactored code for the navigation bar / view in More tab
+
 2 Jan 2022:
 - Home tab done
 - Refactor Home tab code
