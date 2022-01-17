@@ -28,7 +28,9 @@ struct ContentView: View {
             
             
             NavigationView {
-                HistoryTabView().navigationBarTitleDisplayMode(.inline)
+                HistoryTabView().navigationTitle("History").navigationBarTitleDisplayMode(.inline).toolbar {
+                    Image(systemName: "barcode.viewfinder")
+                }
             }
             .tabItem {
                 Image(systemName: "clock.arrow.circlepath")

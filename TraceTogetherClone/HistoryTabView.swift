@@ -8,15 +8,51 @@
 import SwiftUI
 
 struct HistoryTabView: View {
+    
+    @State var selectedTabIndex = 0
+    
+    var dateArr = ["Fri, 14 Jan", "Sat, 15 Jan", "Sun, 16 Jan"]
+    var placeArr = ["Place 1", "Place 2", "Place 3"]
+    var bluetoothExchangeCountArr = [5, 42, 10]
+    var timeStringArr = ["2:38PM - 3:56PM", "4:38PM - 5:56PM", "6:30PM - 6:56PM"]
+
     var body: some View {
         VStack {
-            HStack {
-                Text("**History**").font(.title)
+            TopTabBarView(selectedTabIndex: $selectedTabIndex)
+            
+            if selectedTabIndex == 0 {
+                ScrollView {
+                    HStack {
+                        Text("Past 25 days").fontWeight(.bold).font(.system(size: 20.0))
+                        Image(systemName: "questionmark.circle.fill").foregroundColor(Color.gray)
+                        
+                        Spacer()
+                    }.padding(.leading, 10)
+                    
+                    
+                    VStack {
+                        ForEach(0..<dateArr.count, id: \.self) { index in
+                            VStack {
+                                DatePanelView(dateString: dateArr[index])
+                                BluetoothExchangeCountView(bluetoothExchange: bluetoothExchangeCountArr[index])
+                                PlaceCheckInView(place: placeArr[index], timeString: timeStringArr[index])
+                            }
+                        }
+                    }
+                    
+                    
+                    Spacer()
+                }
+            } else {
+                HStack {
+                    Text("Past 40 days").fontWeight(.bold).font(.system(size: 20.0))
+                    Image(systemName: "questionmark.circle.fill").foregroundColor(Color.gray)
+                    
+                    Spacer()
+                }.padding(.leading, 10)
                 
                 Spacer()
             }
-            
-            Spacer()
         }
     }
 }

@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AA01ACE12795C973001913BD /* BluetoothExchangeCountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA01ACE02795C973001913BD /* BluetoothExchangeCountView.swift */; };
+		AA01ACE32795CB80001913BD /* PlaceCheckInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA01ACE22795CB80001913BD /* PlaceCheckInView.swift */; };
 		AA0A47DA27737E1600BD5D57 /* TraceTogetherCloneApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0A47D927737E1600BD5D57 /* TraceTogetherCloneApp.swift */; };
 		AA0A47DC27737E1600BD5D57 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0A47DB27737E1600BD5D57 /* ContentView.swift */; };
 		AA0A47DE27737E1700BD5D57 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA0A47DD27737E1700BD5D57 /* Assets.xcassets */; };
@@ -22,9 +24,14 @@
 		AADB3847277635E600AE719B /* HelpFeedbackMoreTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AADB3846277635E600AE719B /* HelpFeedbackMoreTabView.swift */; };
 		AADB38492776367700AE719B /* OthersMoreTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AADB38482776367700AE719B /* OthersMoreTabView.swift */; };
 		AADB384B277636DF00AE719B /* AcknowledgementsMoreTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AADB384A277636DF00AE719B /* AcknowledgementsMoreTabView.swift */; };
+		AAEC752D279319D100BA6EF8 /* TopTabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAEC752C279319D100BA6EF8 /* TopTabBarView.swift */; };
+		AAEC752F27931AB600BA6EF8 /* TopTabBarButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAEC752E27931AB600BA6EF8 /* TopTabBarButton.swift */; };
+		AAF356AD27947BA200BB1CA0 /* DatePanelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAF356AC27947BA200BB1CA0 /* DatePanelView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AA01ACE02795C973001913BD /* BluetoothExchangeCountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BluetoothExchangeCountView.swift; sourceTree = "<group>"; };
+		AA01ACE22795CB80001913BD /* PlaceCheckInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceCheckInView.swift; sourceTree = "<group>"; };
 		AA0A47D627737E1600BD5D57 /* TraceTogetherClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TraceTogetherClone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA0A47D927737E1600BD5D57 /* TraceTogetherCloneApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TraceTogetherCloneApp.swift; sourceTree = "<group>"; };
 		AA0A47DB27737E1600BD5D57 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -41,6 +48,9 @@
 		AADB3846277635E600AE719B /* HelpFeedbackMoreTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpFeedbackMoreTabView.swift; sourceTree = "<group>"; };
 		AADB38482776367700AE719B /* OthersMoreTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OthersMoreTabView.swift; sourceTree = "<group>"; };
 		AADB384A277636DF00AE719B /* AcknowledgementsMoreTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AcknowledgementsMoreTabView.swift; sourceTree = "<group>"; };
+		AAEC752C279319D100BA6EF8 /* TopTabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopTabBarView.swift; sourceTree = "<group>"; };
+		AAEC752E27931AB600BA6EF8 /* TopTabBarButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopTabBarButton.swift; sourceTree = "<group>"; };
+		AAF356AC27947BA200BB1CA0 /* DatePanelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePanelView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +104,11 @@
 			isa = PBXGroup;
 			children = (
 				AA36541A279074A000EBAACE /* HistoryTabView.swift */,
+				AAEC752C279319D100BA6EF8 /* TopTabBarView.swift */,
+				AAEC752E27931AB600BA6EF8 /* TopTabBarButton.swift */,
+				AAF356AC27947BA200BB1CA0 /* DatePanelView.swift */,
+				AA01ACE02795C973001913BD /* BluetoothExchangeCountView.swift */,
+				AA01ACE22795CB80001913BD /* PlaceCheckInView.swift */,
 			);
 			name = History;
 			sourceTree = "<group>";
@@ -208,8 +223,13 @@
 				AA0A47DA27737E1600BD5D57 /* TraceTogetherCloneApp.swift in Sources */,
 				AA4CAE862778DB9100C7D6E5 /* HomeTabView.swift in Sources */,
 				AA8063F0277387290013AA6F /* MoreTabView.swift in Sources */,
+				AAEC752D279319D100BA6EF8 /* TopTabBarView.swift in Sources */,
+				AAF356AD27947BA200BB1CA0 /* DatePanelView.swift in Sources */,
+				AA01ACE32795CB80001913BD /* PlaceCheckInView.swift in Sources */,
 				AADB384B277636DF00AE719B /* AcknowledgementsMoreTabView.swift in Sources */,
+				AA01ACE12795C973001913BD /* BluetoothExchangeCountView.swift in Sources */,
 				AADB38452776338A00AE719B /* AccountsMoreTabView.swift in Sources */,
+				AAEC752F27931AB600BA6EF8 /* TopTabBarButton.swift in Sources */,
 				AA5C7CBF277CB266000FBEE2 /* HeaderView.swift in Sources */,
 				AA98BCD42781E5020096E9AB /* CheckInView.swift in Sources */,
 				AADB3847277635E600AE719B /* HelpFeedbackMoreTabView.swift in Sources */,
