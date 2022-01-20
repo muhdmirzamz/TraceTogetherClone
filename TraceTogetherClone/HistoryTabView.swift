@@ -44,9 +44,11 @@ struct HistoryTabView: View {
                     Spacer()
                 }
             } else {
-                HStack {
-                    Text("Past 40 days").fontWeight(.bold).font(.system(size: 20.0))
-                    Image(systemName: "questionmark.circle.fill").foregroundColor(Color.gray)
+                VStack() {
+                    Spacer()
+                    
+                    Text("If your TraceTogether or SafeEntry records indicate that you have possible exposure to COVID-19, **Authorities will inform you via SMS and/or call.**").multilineTextAlignment(.center).padding(.bottom, 10)
+                    Text("Stay safe, take care! :)")
                     
                     Spacer()
                 }.padding(.leading, 10)

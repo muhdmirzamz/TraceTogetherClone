@@ -5,6 +5,9 @@ A clone of the Singapore COVID contact tracing app, TraceTogether, written in Sw
 
 ### CHANGELOG
 
+20 Jan 2022:
+- Second half of History tab is completed
+
 18 Jan 2022:
 - First half of History tab complete
 
