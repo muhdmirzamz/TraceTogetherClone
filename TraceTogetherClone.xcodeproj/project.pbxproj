@@ -19,6 +19,7 @@
 		AA5C7CBF277CB266000FBEE2 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA5C7CBE277CB266000FBEE2 /* HeaderView.swift */; };
 		AA8063F0277387290013AA6F /* MoreTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA8063EF277387290013AA6F /* MoreTabView.swift */; };
 		AA98BCD42781E5020096E9AB /* CheckInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA98BCD32781E5020096E9AB /* CheckInView.swift */; };
+		AAD061C7279B17A700C9C588 /* UploadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD061C6279B17A700C9C588 /* UploadView.swift */; };
 		AADB38412776330000AE719B /* HeaderMoreTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AADB38402776330000AE719B /* HeaderMoreTabView.swift */; };
 		AADB38452776338A00AE719B /* AccountsMoreTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AADB38442776338A00AE719B /* AccountsMoreTabView.swift */; };
 		AADB3847277635E600AE719B /* HelpFeedbackMoreTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AADB3846277635E600AE719B /* HelpFeedbackMoreTabView.swift */; };
@@ -43,6 +44,7 @@
 		AA5C7CBE277CB266000FBEE2 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
 		AA8063EF277387290013AA6F /* MoreTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreTabView.swift; sourceTree = "<group>"; };
 		AA98BCD32781E5020096E9AB /* CheckInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckInView.swift; sourceTree = "<group>"; };
+		AAD061C6279B17A700C9C588 /* UploadView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadView.swift; sourceTree = "<group>"; };
 		AADB38402776330000AE719B /* HeaderMoreTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderMoreTabView.swift; sourceTree = "<group>"; };
 		AADB38442776338A00AE719B /* AccountsMoreTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountsMoreTabView.swift; sourceTree = "<group>"; };
 		AADB3846277635E600AE719B /* HelpFeedbackMoreTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpFeedbackMoreTabView.swift; sourceTree = "<group>"; };
@@ -127,6 +129,7 @@
 		AA8063ED277386F40013AA6F /* Tabs */ = {
 			isa = PBXGroup;
 			children = (
+				AAD061C5279B179400C9C588 /* Upload */,
 				AA3654192790748200EBAACE /* History */,
 				AA4CAE832778DB6B00C7D6E5 /* Home */,
 				AA8063EE277387010013AA6F /* More */,
@@ -145,6 +148,14 @@
 				AADB384A277636DF00AE719B /* AcknowledgementsMoreTabView.swift */,
 			);
 			name = More;
+			sourceTree = "<group>";
+		};
+		AAD061C5279B179400C9C588 /* Upload */ = {
+			isa = PBXGroup;
+			children = (
+				AAD061C6279B17A700C9C588 /* UploadView.swift */,
+			);
+			name = Upload;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -234,6 +245,7 @@
 				AA98BCD42781E5020096E9AB /* CheckInView.swift in Sources */,
 				AADB3847277635E600AE719B /* HelpFeedbackMoreTabView.swift in Sources */,
 				AA5C7CBD277CB1D3000FBEE2 /* HealthStatusView.swift in Sources */,
+				AAD061C7279B17A700C9C588 /* UploadView.swift in Sources */,
 				AADB38492776367700AE719B /* OthersMoreTabView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

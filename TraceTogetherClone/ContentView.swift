@@ -29,7 +29,7 @@ struct ContentView: View {
             
             NavigationView {
                 HistoryTabView().navigationTitle("History").navigationBarTitleDisplayMode(.inline).toolbar {
-                    Image(systemName: "barcode.viewfinder")
+                    Image(systemName: "barcode.viewfinder").foregroundColor(.red)
                 }
             }
             .tabItem {
@@ -37,8 +37,13 @@ struct ContentView: View {
                 Text("History")
             }
             
-            Text("Search Tab")
-                .font(.system(size: 30, weight: .bold, design: .rounded))
+            
+            
+            NavigationView {
+                UploadView().navigationTitle("Upload").navigationBarTitleDisplayMode(.inline).toolbar {
+                    Image(systemName: "barcode.viewfinder").foregroundColor(.red)
+                }
+            }
             .tabItem {
                 Image(systemName: "icloud.and.arrow.up.fill")
                 Text("Upload")
@@ -68,7 +73,7 @@ struct ContentView: View {
 //        https://www.hackingwithswift.com/quick-start/swiftui/how-to-add-bar-items-to-a-navigation-view
             NavigationView {
                 MoreTabView().navigationTitle("More") .navigationBarTitleDisplayMode(.inline).toolbar {
-                    Image(systemName: "barcode.viewfinder")
+                    Image(systemName: "barcode.viewfinder").foregroundColor(.red)
                 }
             }
             .tabItem {
