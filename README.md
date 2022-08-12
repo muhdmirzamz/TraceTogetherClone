@@ -1,9 +1,9 @@
 ## TraceTogether clone
 
 <div>
-    <img src="./resources/home.png" />
-    <img src="./resources/history.png" />
-    <img src="./resources/more.png" />
+    <img src="./resources/home.png" width="200" height="400" />
+    <img src="./resources/history.png" width="200" height="400" />
+    <img src="./resources/more.png" width="200" height="400" />
         
 </div>
 
